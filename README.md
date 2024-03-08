@@ -1,8 +1,33 @@
-Welcome to my website.
-Please find it here : https://widyaliu.site/
 ![Header](content/milestone1_home.png)
 
 <h1 align="center"> Hellooooourrrr, thank you for visiting! <img src="https://media.tenor.com/JhG1ASxYJNMAAAAi/twerling-insomnia.gif" width="50px" height="50px"/> </h1>
+
+<h2 align="left">Please give my site a lot of love!: https://widyaliu.site/</h2>
+
+<h3>Why dating sites? <img src="https://media.tenor.com/T2yTeL2JNb0AAAAi/love-i-love-you.gif" weight =50px height=50px></h3>
+Well let me introduce myself first! My name is Widya and I have been working the past few weeks to present you my milestone project for html! I got inspired with Tinder and I am looking forward for your feedback!
+
+## STRUCTURE 📰
+
+-  Header
+   -  Announcement
+   -  Navbar
+-  Main
+   -  Hero section
+   -  Collection section
+   -  Product section
+   -  Blog section
+   -  Newsletter section
+-  Footer
+
+## INGREDIENTS I USE 📜
+
+-  HTML
+-  CSS
+-  JavaScript
+-  External/Internal Source
+   -  Icon
+   -  Image
 
 Here are the instructions on how to deploy my website from github to the custom domain.
 
