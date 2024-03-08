@@ -311,18 +311,6 @@ input[type="submit"]:hover {
    }
 }
 
-footer {
-   background-color: #333;
-   color: white;
-   padding: 10%;
-   text-align: center;
-}
-
-footer a {
-   color: white;
-   margin: 0 10px;
-}
-
 h1 {
    font-size: clamp(3rem, 1vw, 1.1875rem);
    font-weight: bolder;
@@ -413,4 +401,20 @@ textarea {
    box-sizing: border-box;
 
    width: 50%;
+}
+footer {
+   background-color: #333;
+   color: white;
+   padding: 1%;
+   text-align: center;
+   position: relative;
+   z-index: 10;
+   height: 15em;
+   margin-top: -1em;S
+}
+
+footer a {
+   color: white;
+   margin: 0 1%;
+   font-size: 150%;
 }
