@@ -45,7 +45,7 @@ li {
    overflow: hidden;
    top: 0px;
    justify-content: space-between;
-   padding: 0 2em;
+   padding: 0 1em;
 }
 .navMenu {
    display: flex;
@@ -75,7 +75,7 @@ li {
 }
 
 .logo {
-   width: 8%;
+   width: auto;
    position: sticky;
    margin-top: -0%;
    /* position: absolute; */
@@ -141,8 +141,6 @@ li {
    width: 100%;
    margin: 0;
    text-align: center;
-   color: peru;
-   font-weight: 700;
 }
 .container {
    margin-top: 2em;
@@ -168,7 +166,7 @@ li {
    color: indianred;
 }
 .imgHeader {
-   background-image: url("/Week 1 Checkpoint 2/content/header-background2.png");
+   background-image: url("/content/header-background2.png");
    background-position: 100%;
    background-size: cover;
    text-align: center;
@@ -195,15 +193,15 @@ li {
 
 .aboutUs {
    text-align: center;
-   background-image: url("/Week 1 Checkpoint 2/content/About Us.svg");
-   padding-bottom: 10px;
+   background-image: url("/content/About Us.svg");
+   padding-bottom: 1%;
    word-spacing: 5px;
 }
 .contactUs {
-   background-image: url("/Week 1 Checkpoint 2/content/Contact Us.svg");
-   width: 100%;
+   background-image: url("/content/Thankyou.gif");
+   background-size: 100%;
    text-align: center;
-   padding-bottom: 2%;
+   padding-bottom: 1%;
 }
 
 label {
@@ -218,12 +216,12 @@ label {
 
 /* styling office */
 .offices {
-   padding-top: 2%;
+   padding-top: 1%;
    background-image: url("https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-88.jpg?w=1060&t=st=1708524622~exp=1708525222~hmac=36cd5bd3610d57f2da2c920b099d0278efd608229ad6a59bb60b72395760e871");
    background-size: cover;
    width: 100%;
    text-align: center;
-   padding-bottom: 5%;
+   padding-bottom: 2%;
    /* filter: url("https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-88.jpg?w=1060&t=st=1708524622~exp=1708525222~hmac=36cd5bd3610d57f2da2c920b099d0278efd608229ad6a59bb60b72395760e871"); */
 }
 
@@ -305,3 +303,107 @@ input[type="submit"]:hover {
    }
 }
 
+footer {
+   background-color: #333;
+   color: white;
+   padding: 20px;
+   text-align: center;
+}
+
+footer a {
+   color: white;
+   margin: 0 10px;
+}
+
+h1 {
+   font-size: clamp(3rem, 1vw, 1.1875rem);
+   font-weight: bolder;
+   color: brown;
+   font-weight: 700;
+}
+
+label {
+   font-size: clamp(1.5rem, 1vw, 1.1875rem);
+   font-weight: bolder;
+   color: brown;
+}
+input[type="text"],
+select {
+   width: 60%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   font-size: large;
+   text-align: center;
+}
+input[type="email"],
+select {
+   width: 60%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   font-size: large;
+   text-align: center;
+}
+input[type="date"],
+select {
+   width: 60%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   font-size: large;
+   text-align: center;
+}
+input[type="number"],
+select {
+   width: 60%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+   font-size: 100%;
+   text-align: center;
+}
+
+input[type="radio"],
+select {
+   display: inline-block;
+   width: 50px;
+   height: 19px;
+   margin: -1px 4px 0 0;
+   vertical-align: middle;
+   cursor: pointer;
+   font-size: xx-large;
+}
+input[type="checkbox"],
+select {
+   display: inline-block;
+   width: 50px;
+   height: 19px;
+   margin: -1px 4px 0 0;
+   vertical-align: middle;
+   cursor: pointer;
+   font-size: 100px;
+}
+#Criteria {
+   font-size: 120%;
+}
+
+textarea {
+   -webkit-box-sizing: border-box;
+   -moz-box-sizing: border-box;
+   box-sizing: border-box;
+
+   width: 50%;
+}
