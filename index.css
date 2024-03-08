@@ -1,0 +1,307 @@
+@font-face {
+   font-family: myFirstFont;
+   src: url(content/font.ttf);
+}
+@font-face {
+   font-family: flowerFont;
+   src: url(content/Austie.ttf);
+}
+@font-face {
+   font-family: flowerFont2;
+   src: url(content/Austie2.ttf);
+}
+@font-face {
+   font-family: flowerFont2;
+   src: url(content/emoji.ttf);
+}
+.twinkle-star-regular {
+   font-family: "Twinkle Star", cursive;
+   font-weight: 400;
+   font-style: normal;
+}
+* {
+   margin: 0%;
+   font-family: "calibri";
+   font-weight: lighter;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+li {
+   list-style: none;
+}
+.navBar {
+   display: flex;
+   min-height: 30px;
+   /* margin-top: 1%; */
+   white-space: nowrap;
+   background-color: papayawhip;
+   background: linear-gradient(to left, #f4ae45, #fad9ac);
+   color: #fff;
+   z-index: 9999;
+   position: sticky;
+   align-items: center;
+   font-size: 80%;
+   overflow: hidden;
+   top: 0px;
+   justify-content: space-between;
+   padding: 0 2em;
+}
+.navMenu {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   top: 0px;
+   position: sticky;
+}
+
+/* hamburger */
+
+.hamburger {
+   display: none;
+   cursor: pointer;
+}
+
+.bar {
+   display: block;
+   width: 25px;
+   height: 50%;
+   margin: 5px auto;
+   -webkit-transition: all 0.3s ease-in-out;
+   transition: all 0.3s ease-in-out;
+   background-color: black;
+   border-top: 1px solid black;
+}
+
+.logo {
+   width: 8%;
+   position: sticky;
+   margin-top: -0%;
+   /* position: absolute; */
+}
+
+.nav-link {
+   transition: 0.7s ease;
+}
+
+.nav-link:hover {
+   font-size: large;
+}
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+   position: fixed;
+   width: 100%;
+   top: 0;
+}
+
+.navItem a {
+   color: brown;
+   display: block;
+   align-items: center;
+   text-decoration: none;
+   margin: 0px 0px;
+   font-size: 130%;
+   font-family: calibri;
+   font-weight: bold;
+   padding: 10px 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+   html {
+      scroll-behavior: smooth;
+   }
+}
+
+/* .container {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   margin-top: 10px;
+   width: 50%;
+   height: 50%;
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+   flex-wrap: wrap;
+} */
+/* .box {
+   border: 3px solid #7ed592;
+   width: 100px;
+   padding: 10px;
+   height: 100px;
+   border-radius: 10px; }*/
+.img-card {
+   object-fit: cover;
+   aspect-ratio: 200/200;
+   width: 100%;
+   height: 100%;
+}
+.candidate {
+   width: 100%;
+   margin: 0;
+   text-align: center;
+   color: peru;
+   font-weight: 700;
+}
+.container {
+   margin-top: 2em;
+   display: flex;
+   flex-direction: row;
+   gap: 1em;
+   flex-wrap: nowrap;
+   align-items: center;
+   padding-bottom: 3%;
+}
+
+.box {
+   border: 1px solid black;
+   width: 80%;
+   padding: 1.5em;
+   height: 80%;
+   border-radius: 10px;
+}
+
+.candidateName {
+   font-family: "Twinkle Star";
+   font-weight: bold;
+   color: indianred;
+}
+.imgHeader {
+   background-image: url("/Week 1 Checkpoint 2/content/header-background2.png");
+   background-position: 100%;
+   background-size: cover;
+   text-align: center;
+   font-size: 500%;
+   padding-bottom: 7%;
+   padding-left: 8%;
+   padding-top: 7%;
+}
+
+.textCenter {
+   font-weight: 600;
+   color: aliceblue;
+   text-shadow: 2px 2px 2px maroon;
+   align-items: center;
+   font-family: "Twinkle Star";
+}
+.textCenter:hover {
+   color: pink;
+   text-decoration: solid;
+}
+.title1 {
+   margin-top: 0%;
+}
+
+.aboutUs {
+   text-align: center;
+   background-image: url("/Week 1 Checkpoint 2/content/About Us.svg");
+   padding-bottom: 10px;
+   word-spacing: 5px;
+}
+.contactUs {
+   background-image: url("/Week 1 Checkpoint 2/content/Contact Us.svg");
+   width: 100%;
+   text-align: center;
+   padding-bottom: 2%;
+}
+
+label {
+   display: inline-block;
+   width: 100%;
+   text-align: center;
+}
+
+.aboutUsImg {
+   max-width: 100%;
+}
+
+/* styling office */
+.offices {
+   padding-top: 2%;
+   background-image: url("https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-88.jpg?w=1060&t=st=1708524622~exp=1708525222~hmac=36cd5bd3610d57f2da2c920b099d0278efd608229ad6a59bb60b72395760e871");
+   background-size: cover;
+   width: 100%;
+   text-align: center;
+   padding-bottom: 5%;
+   /* filter: url("https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-88.jpg?w=1060&t=st=1708524622~exp=1708525222~hmac=36cd5bd3610d57f2da2c920b099d0278efd608229ad6a59bb60b72395760e871"); */
+}
+
+.grid-container {
+   display: grid;
+   grid-template-columns: auto auto auto;
+   gap: 20px;
+   justify-content: center;
+   text-align: center;
+   font-size: 140%;
+   font-weight: bold;
+
+   opacity: 1;
+}
+
+.grid-container img {
+   width: 100%;
+}
+.grid-container :hover {
+   filter: blur(0.5);
+   zoom: 1.2;
+   opacity: 0.5;
+   transition: 2s;
+}
+
+.sh-grid {
+   grid-column-start: 1;
+   grid-column-end: 3;
+}
+.hk-grid {
+   grid-row-start: span 2;
+}
+.hk-image {
+   height: 97%;
+   object-fit: cover;
+}
+.db-grid {
+   grid-row-start: span 2;
+}
+.db-image {
+   height: 94%;
+   object-fit: cover;
+}
+
+ul.terms {
+   list-style-type: square;
+   align-items: center;
+   list-style-position: inside;
+}
+
+.tAndC {
+   margin: 0 auto;
+   padding: 0;
+   font-size: 200%;
+   padding-top: 5%;
+   padding-bottom: 5%;
+   text-align: center;
+   background-image: url("https://media.istockphoto.com/id/1369125006/zh/%E7%85%A7%E7%89%87/abstract-blue-gradients-background.jpg?s=612x612&w=0&k=20&c=0Ck3sKUxngpZwNuwETMp4Fxzi_0PAMgNvgwefRbnuP8=");
+   background-size: cover;
+}
+
+/* submit button */
+input[type="submit"] {
+   background-color: rgb(172, 114, 66);
+   border-radius: 50%;
+   color: white;
+   padding: 16px 32px;
+   text-decoration: none;
+   margin: 4px 2px;
+   font-size: large;
+}
+input[type="submit"]:hover {
+   animation: spin 2000ms linear infinite;
+}
+
+@keyframes spin {
+   to {
+      transform: rotate(360deg);
+   }
+}
+
