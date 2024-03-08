@@ -32,7 +32,7 @@ li {
 }
 .navBar {
    display: flex;
-   min-height: 30px;
+   min-height: 5%;
    /* margin-top: 1%; */
    white-space: nowrap;
    background-color: papayawhip;
@@ -141,6 +141,8 @@ li {
    width: 100%;
    margin: 0;
    text-align: center;
+   padding-bottom: 3%;
+   padding-top: 2%;
 }
 .container {
    margin-top: 2em;
@@ -150,6 +152,7 @@ li {
    flex-wrap: nowrap;
    align-items: center;
    padding-bottom: 3%;
+   padding-top: 2%;
 }
 
 .box {
@@ -157,7 +160,7 @@ li {
    width: 80%;
    padding: 1.5em;
    height: 80%;
-   border-radius: 10px;
+   border-radius: 12%;
 }
 
 .candidateName {
@@ -194,14 +197,17 @@ li {
 .aboutUs {
    text-align: center;
    background-image: url("/content/About Us.svg");
-   padding-bottom: 1%;
-   word-spacing: 5px;
+
+   word-spacing: 5%;
+   padding-bottom: 3%;
+   padding-top: 2%;
 }
 .contactUs {
    background-image: url("/content/Thankyou.gif");
    background-size: 100%;
    text-align: center;
-   padding-bottom: 1%;
+   padding-bottom: 3%;
+   padding-top: 2%;
 }
 
 label {
@@ -212,16 +218,18 @@ label {
 
 .aboutUsImg {
    max-width: 100%;
+   padding-top: 2%;
 }
 
 /* styling office */
 .offices {
-   padding-top: 1%;
+   padding-bottom: 3%;
+   padding-top: 2%;
    background-image: url("https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-88.jpg?w=1060&t=st=1708524622~exp=1708525222~hmac=36cd5bd3610d57f2da2c920b099d0278efd608229ad6a59bb60b72395760e871");
    background-size: cover;
    width: 100%;
    text-align: center;
-   padding-bottom: 2%;
+
    /* filter: url("https://img.freepik.com/free-vector/abstract-watercolor-pastel-background_87374-88.jpg?w=1060&t=st=1708524622~exp=1708525222~hmac=36cd5bd3610d57f2da2c920b099d0278efd608229ad6a59bb60b72395760e871"); */
 }
 
@@ -286,12 +294,12 @@ ul.terms {
 /* submit button */
 input[type="submit"] {
    background-color: rgb(172, 114, 66);
-   border-radius: 50%;
+   border-radius: 70%;
    color: white;
-   padding: 16px 32px;
+   padding: 1% 2%;
    text-decoration: none;
-   margin: 4px 2px;
-   font-size: large;
+   margin: 1% 1%;
+   font-size: 160%;
 }
 input[type="submit"]:hover {
    animation: spin 2000ms linear infinite;
@@ -306,7 +314,7 @@ input[type="submit"]:hover {
 footer {
    background-color: #333;
    color: white;
-   padding: 20px;
+   padding: 10%;
    text-align: center;
 }
 
@@ -372,7 +380,7 @@ select {
    border: 1px solid #ccc;
    border-radius: 4px;
    box-sizing: border-box;
-   font-size: 100%;
+   font-size: large;
    text-align: center;
 }
 
@@ -394,7 +402,6 @@ select {
    margin: -1px 4px 0 0;
    vertical-align: middle;
    cursor: pointer;
-   font-size: 100px;
 }
 #Criteria {
    font-size: 120%;
