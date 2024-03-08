@@ -100,4 +100,21 @@
    h3 {
       font-size: clamp(2rem, 1vw, 1.1875rem);
    }
+
+   .aboutUs {
+      padding-bottom: 3%;
+      padding-top: 4%;
+   }
+   .contactUs {
+      padding-bottom: 3%;
+      padding-top: 4%;
+   }
+   .candidate {
+      padding-bottom: 3%;
+      padding-top: 4%;
+   }
+   .offices {
+      padding-bottom: 3%;
+      padding-top: 4%;
+   }
 }
